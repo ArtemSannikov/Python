@@ -61,3 +61,12 @@ cars_list = ['bmw', 'nissan', 'audi', 'subaru']
 car = 'mitsubishi'
 if car not in cars_list:
 	print('True, mitsubishi не в этом списке')
+
+	# Использование команд if со списками
+requested_toppings = []
+if requested_toppings:
+	for requested_topping in requested_toppings:
+		print('adding' + requested_topping + '.')
+		print('\nFinshed making your pizza!')
+else:
+	print('Are you sure you want a plain pizza')
